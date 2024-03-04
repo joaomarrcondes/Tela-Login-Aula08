@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#pesquisa {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 500px;
+    margin-top: 17px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens {
+    padding: 20px;
+    box-shadow: 5px 5px 5px 3px gray;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#bulbassour{
+   padding-bottom: 20px;
+}
+
+.fim{
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 50px;
+    background-color:dodgerblue;
+    color: white;
+}
+
+#seta-cima{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
